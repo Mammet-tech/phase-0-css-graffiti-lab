@@ -1,1 +1,21 @@
 /* write your override styles here */
+body #wall {
+    box-shadow: none;
+    border: 10px solid black;
+}
+body .tag-1 {
+    background: url(../images/new-tag-1.png) no-repeat;
+    z-index: 10;
+    display: inline-block;
+}
+body div {
+    display: flex;
+    unicode-bidi: normal;
+}
+
+body div#wall #tag-3.slick {
+    background: url(../images/new-tag-3.png) no-repeat;
+    z-index: 10;
+    display: inline-block;
+}
+
